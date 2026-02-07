@@ -13,7 +13,7 @@ struct AppLifeCycleApp: App {
     @State private var cart = CartModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ViwLifeCycle()
                 .environment(cart)
         }
         .onChange(of: scenePhase){

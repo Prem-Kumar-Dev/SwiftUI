@@ -9,6 +9,7 @@ import SwiftUI
 
 struct FlagCardView: View {
     let flag: Country
+    
     var body: some View {
         VStack{
             Image(flag.flag)
@@ -29,12 +30,9 @@ struct FlagCardView: View {
                 .font(.title3)
                 .foregroundStyle(.white)
                 .padding(.bottom,20)
-                
-                
         }
         .frame(width: 180, height: 200)
         .background(.red.opacity(0.5))
-        
         .clipShape(RoundedRectangle(cornerRadius: 18))
     }
 }

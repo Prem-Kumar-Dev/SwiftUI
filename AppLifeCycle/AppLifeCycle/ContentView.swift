@@ -8,17 +8,40 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(CartModel.self) var cart
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Smart Car")
+                .font(.largeTitle)
+            Text("Scene Phase : \(cart.lastPhase)")
+                .font(.title2)
+            List(cart.items){item in
+                HStack{
+                    Text(item.name)
+                        .font(.title)
+                    Text("x\(item.quantity)")
+                        .foregroundStyle(.secondary)
+                }
+            }
+            Text(cart.statusMessage)
+            Button{
+                cart.startPayment()
+                
+                
+            }label: {
+                Text("Payment \(cart.isPaymentActive ? "Active" : "Paused")")
+                
+            }
+            .buttonStyle(.borderedProminent)
+            
+            
         }
         .padding()
+        .clipShape(RoundedRectangle(cornerRadius: 18))
     }
 }
 
 #Preview {
     ContentView()
+        .environment(CartModel())
 }
