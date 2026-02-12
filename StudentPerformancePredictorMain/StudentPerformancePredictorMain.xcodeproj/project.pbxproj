@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		A1FB11892F3C50D6004B9930 /* StudentPerformancePredictor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentPerformancePredictor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1FB11A22F3C5430004B9930 /* StudentPerformancePredictorMain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentPerformancePredictorMain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A1FB118B2F3C50D6004B9930 /* StudentPerformancePredictor */ = {
+		A1FB11A42F3C5430004B9930 /* StudentPerformancePredictorMain */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = StudentPerformancePredictor;
+			path = StudentPerformancePredictorMain;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A1FB11862F3C50D6004B9930 /* Frameworks */ = {
+		A1FB119F2F3C5430004B9930 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A1FB11802F3C50D6004B9930 = {
+		A1FB11992F3C5430004B9930 = {
 			isa = PBXGroup;
 			children = (
-				A1FB118B2F3C50D6004B9930 /* StudentPerformancePredictor */,
-				A1FB118A2F3C50D6004B9930 /* Products */,
+				A1FB11A42F3C5430004B9930 /* StudentPerformancePredictorMain */,
+				A1FB11A32F3C5430004B9930 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A1FB118A2F3C50D6004B9930 /* Products */ = {
+		A1FB11A32F3C5430004B9930 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A1FB11892F3C50D6004B9930 /* StudentPerformancePredictor.app */,
+				A1FB11A22F3C5430004B9930 /* StudentPerformancePredictorMain.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A1FB11882F3C50D6004B9930 /* StudentPerformancePredictor */ = {
+		A1FB11A12F3C5430004B9930 /* StudentPerformancePredictorMain */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1FB11942F3C50D7004B9930 /* Build configuration list for PBXNativeTarget "StudentPerformancePredictor" */;
+			buildConfigurationList = A1FB11AD2F3C5431004B9930 /* Build configuration list for PBXNativeTarget "StudentPerformancePredictorMain" */;
 			buildPhases = (
-				A1FB11852F3C50D6004B9930 /* Sources */,
-				A1FB11862F3C50D6004B9930 /* Frameworks */,
-				A1FB11872F3C50D6004B9930 /* Resources */,
+				A1FB119E2F3C5430004B9930 /* Sources */,
+				A1FB119F2F3C5430004B9930 /* Frameworks */,
+				A1FB11A02F3C5430004B9930 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A1FB118B2F3C50D6004B9930 /* StudentPerformancePredictor */,
+				A1FB11A42F3C5430004B9930 /* StudentPerformancePredictorMain */,
 			);
-			name = StudentPerformancePredictor;
+			name = StudentPerformancePredictorMain;
 			packageProductDependencies = (
 			);
-			productName = StudentPerformancePredictor;
-			productReference = A1FB11892F3C50D6004B9930 /* StudentPerformancePredictor.app */;
+			productName = StudentPerformancePredictorMain;
+			productReference = A1FB11A22F3C5430004B9930 /* StudentPerformancePredictorMain.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A1FB11812F3C50D6004B9930 /* Project object */ = {
+		A1FB119A2F3C5430004B9930 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
-					A1FB11882F3C50D6004B9930 = {
+					A1FB11A12F3C5430004B9930 = {
 						CreatedOnToolsVersion = 26.2;
 					};
 				};
 			};
-			buildConfigurationList = A1FB11842F3C50D6004B9930 /* Build configuration list for PBXProject "StudentPerformancePredictor" */;
+			buildConfigurationList = A1FB119D2F3C5430004B9930 /* Build configuration list for PBXProject "StudentPerformancePredictorMain" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = A1FB11802F3C50D6004B9930;
+			mainGroup = A1FB11992F3C5430004B9930;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = A1FB118A2F3C50D6004B9930 /* Products */;
+			productRefGroup = A1FB11A32F3C5430004B9930 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A1FB11882F3C50D6004B9930 /* StudentPerformancePredictor */,
+				A1FB11A12F3C5430004B9930 /* StudentPerformancePredictorMain */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A1FB11872F3C50D6004B9930 /* Resources */ = {
+		A1FB11A02F3C5430004B9930 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A1FB11852F3C50D6004B9930 /* Sources */ = {
+		A1FB119E2F3C5430004B9930 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A1FB11922F3C50D7004B9930 /* Debug */ = {
+		A1FB11AB2F3C5431004B9930 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		A1FB11932F3C50D7004B9930 /* Release */ = {
+		A1FB11AC2F3C5431004B9930 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +241,7 @@
 			};
 			name = Release;
 		};
-		A1FB11952F3C50D7004B9930 /* Debug */ = {
+		A1FB11AE2F3C5431004B9930 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -269,7 +269,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.prem.StudentPerformancePredictor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prem.StudentPerformancePredictorMain;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -285,7 +285,7 @@
 			};
 			name = Debug;
 		};
-		A1FB11962F3C50D7004B9930 /* Release */ = {
+		A1FB11AF2F3C5431004B9930 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -313,7 +313,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.prem.StudentPerformancePredictor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prem.StudentPerformancePredictorMain;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -332,25 +332,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A1FB11842F3C50D6004B9930 /* Build configuration list for PBXProject "StudentPerformancePredictor" */ = {
+		A1FB119D2F3C5430004B9930 /* Build configuration list for PBXProject "StudentPerformancePredictorMain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1FB11922F3C50D7004B9930 /* Debug */,
-				A1FB11932F3C50D7004B9930 /* Release */,
+				A1FB11AB2F3C5431004B9930 /* Debug */,
+				A1FB11AC2F3C5431004B9930 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1FB11942F3C50D7004B9930 /* Build configuration list for PBXNativeTarget "StudentPerformancePredictor" */ = {
+		A1FB11AD2F3C5431004B9930 /* Build configuration list for PBXNativeTarget "StudentPerformancePredictorMain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1FB11952F3C50D7004B9930 /* Debug */,
-				A1FB11962F3C50D7004B9930 /* Release */,
+				A1FB11AE2F3C5431004B9930 /* Debug */,
+				A1FB11AF2F3C5431004B9930 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A1FB11812F3C50D6004B9930 /* Project object */;
+	rootObject = A1FB119A2F3C5430004B9930 /* Project object */;
 }
